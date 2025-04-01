@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #61131A;
+}
+
+.actionsBar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.searchContainer {
+  flex: 1;
+  min-width: 200px;
+}
+
+.searchField {
+  width: 100%;
+}
+
+.filterButton {
+  border-color: #61131A !important;
+  color: #61131A !important;
+}
+
+.exportButton {
+  border-color: #61131A !important;
+  color: #61131A !important;
+}
+
+.addButton {
+  background-color: #61131A !important;
+  color: white !important;
+}
+
+@media (max-width: 768px) {
+  .actionsBar {
+    flex-direction: column;
+  }
+}

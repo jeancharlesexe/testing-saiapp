@@ -1,0 +1,13 @@
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.actions {
+  padding: 16px;
+  justify-content: space-between;
+}
+
+.saveButton {
+  background-color: #61131A !important;
+}

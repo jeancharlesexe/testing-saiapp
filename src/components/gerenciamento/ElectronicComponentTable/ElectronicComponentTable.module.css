@@ -1,0 +1,30 @@
+.tableContainer {
+  margin-top: 20px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+}
+
+.tableHead {
+  background-color: #f3f3f3;
+}
+
+.headerCell {
+  font-weight: bold;
+  color: #61131A;
+}
+
+.row {
+  &:hover {
+    background-color: #f9f9f9;
+  }
+}
+
+.productImage {
+  width: 80px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.iconButton {
+  color: #61131A !important;
+}
